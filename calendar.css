@@ -1,0 +1,171 @@
+.clearfix {
+  overflow: auto;
+}
+
+.container-wrapper {
+  text-align: center;
+}
+.container-wrapper .container {
+  background-color: #286dc2;
+  border: 5px solid #f7f4f6;
+  border-radius: 5px;
+  display: inline-block;
+  max-width: 60%;
+}
+.container-wrapper .container .header h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 10px;
+}
+.container-wrapper .container .header .arrow-link {
+  display: inline-block;
+  padding: 0 10px;
+  padding-top: 2px;
+  vertical-align: middle;
+}
+.container-wrapper .container .header .arrow-link a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.container-wrapper .container .header .dropdown-wrap {
+  display: inline-block;
+  vertical-align: middle;
+}
+.container-wrapper .container .header .dropdown-wrap .month-select {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-appearance: none;
+}
+.container-wrapper .container .header .dropdown-wrap .month-select:focus {
+  outline: none;
+}
+.container-wrapper .container .calender-wrap {
+  margin: 10px;
+  text-align: center;
+}
+.container-wrapper .container .calender-wrap .week-heading {
+  background: #f7f4f6;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+}
+.container-wrapper .container .calender-wrap .week-heading div {
+  color: #286dc2;
+  float: left;
+  font-size: 20px;
+  margin: 10px 5px;
+  width: 12.6%;
+}
+.container-wrapper .container .calender-wrap .all-weeks {
+  background: #f7f4f6;
+  border-radius: 2px;
+  padding: 10px;
+}
+.container-wrapper .container .calender-wrap .all-weeks .day-of-week {
+  background: #286dc2;
+  border-radius: 5px;
+  color: #ffffff;
+  float: left;
+  height: 40px;
+  margin: 10px 5px;
+  padding: 10px 0;
+  width: 12.6%;
+}
+.container-wrapper .container .calender-wrap .all-weeks .greyed-tile {
+  opacity: 0.4;
+}
+.container-wrapper .container .calender-wrap .all-weeks .active {
+  background-color: #f7f4f6;
+  border: 4px solid #286dc2;
+  color: #286dc2;
+  padding: 6px 0px;
+}
+.container-wrapper .container .calender-wrap .all-weeks .selected-tile {
+  background-color: #98bcc2;
+  border: 4px solid #286dc2;
+  color: #286dc2;
+  padding: 6px 0px;
+}
+
+.popover-title {
+  background-color: #f7f4f6;
+  color: #286dc2;
+  font-size: 20px;
+  text-align: center;
+}
+
+.popover-content {
+  background-color: #f7f4f6;
+  color: #286dc2;
+  font-size: 15px;
+  padding: 25px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body .container-wrapper .container {
+    max-width: 100%;
+  }
+  body .container-wrapper .container .calender-wrap .week-heading div {
+    font-size: 10px;
+    width: 10%;
+  }
+  body .container-wrapper .container .calender-wrap .all-weeks .day-of-week {
+    font-size: 10px;
+    height: 30px;
+    width: 10%;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body .container-wrapper .container {
+    max-width: 100%;
+  }
+  body .container-wrapper .container .calender-wrap .week-heading div {
+    font-size: 10px;
+    width: 10%;
+  }
+  body .container-wrapper .container .calender-wrap .all-weeks .day-of-week {
+    font-size: 10px;
+    height: 30px;
+    width: 10%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body .container-wrapper .container {
+    max-width: 60%;
+  }
+  body .container-wrapper .container .calender-wrap .week-heading div {
+    font-size: 15px;
+    width: 11%;
+  }
+  body .container-wrapper .container .calender-wrap .all-weeks .day-of-week {
+    font-size: 15px;
+    height: 40px;
+    width: 11%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body .container-wrapper .container {
+    max-width: 60%;
+  }
+  body .container-wrapper .container .calender-wrap .week-heading div {
+    font-size: 15px;
+    width: 12.6%;
+  }
+  body .container-wrapper .container .calender-wrap .all-weeks .day-of-week {
+    font-size: 15px;
+    height: 40px;
+    width: 12.6%;
+  }
+}
+
+/*# sourceMappingURL=calendar.css.map */
